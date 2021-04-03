@@ -82,4 +82,4 @@ client.on("message", async message => {
   );
 });
 
-client.login(Token);
+client.login(process.env.DJS_Token);
